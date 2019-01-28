@@ -1,7 +1,6 @@
 This repository contains a [Minerva][1] core compiled from [nMigen][2] to Verilog.
 It has been checked out at `45b8034a3c0d65339173274916230809de6fab15` and built with the following configuration:
 
-```
 | Parameter         | Value        |
 | ----------------- | ------------ |
 | `reset_address`   | `0x00000000` |
@@ -18,7 +17,6 @@ It has been checked out at `45b8034a3c0d65339173274916230809de6fab15` and built 
 | `dcache_base`     | `0x00000000` |
 | `dcache_limit`    | `0x80000000` |
 
-```
 
 nMigen currently propagates a lot of unneeded inputs to the toplevel. To use Minerva, you only need to wire the following ports to `minerva_cpu`:
 
